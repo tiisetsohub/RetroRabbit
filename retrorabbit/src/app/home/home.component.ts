@@ -60,7 +60,7 @@ export class HomeComponent {
     Time: '8:00',
     Date: '21 June 2022',
     Venue: 'Wits hall29',
-    Desc: 'Well come to the mighty wits ,hope you know what you got yourselves into. We start by celebrating and laghter because tears and pain are coming your way. You will not have time to celebrate.  ',
+    Description: 'Well come to the mighty wits ,hope you know what you got yourselves into. We start by celebrating and laghter because tears and pain are coming your way. You will not have time to celebrate.  ',
     Price: 'R400',
     VipPrice: 'R1200'
   },{
@@ -69,9 +69,12 @@ export class HomeComponent {
     Time: '17:00',
     Date: '24 April',
     Venue: 'Drama',
-    Desc: 'An event that brings the underground scene to life, by inviting some of South Africa come give an experience like no other on the streets of Kagiso. A carefully curated line up whose mandate is to not compromise but to educate to an o',
+    Description: 'An event that brings the underground scene to life, by inviting some of South Africa come give an experience like no other on the streets of Kagiso. A carefully curated line up whose mandate is to not compromise but to educate to an o',
     Price: 'R80',
     VipPrice: 'R150'
   }
 ]
+eventR (){
+
+}
 }
