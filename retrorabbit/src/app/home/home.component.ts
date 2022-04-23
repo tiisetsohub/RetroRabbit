@@ -28,7 +28,7 @@ export class HomeComponent {
     Price: 'R1800',
     VipPrice: 'R7000'
   },{
-    Image: 'Image 1.png',
+    Image: 'Images 1.png',
     Name: 'Retro Rabbit ',
     Time: '8:00',
     Date: '23 April 2022',
