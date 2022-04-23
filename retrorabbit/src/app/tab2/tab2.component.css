@@ -1,0 +1,110 @@
+.main{
+    color: white;
+    padding: 0 10px;
+}
+
+.top{
+    display: flex;
+    
+}
+
+.top img{
+    width:159px;
+    height: 157px;
+}
+
+.txt {
+    margin-left: 10px;
+    margin-top: -16px;
+}
+
+p{
+    font-size:12px;
+}
+.disp p{
+    margin-top: -10px;
+}
+
+.top-box{
+    display: flex;
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.bottom-box {
+    margin-top:15px;
+    display: flex;
+    font-size: 12px;
+}
+
+label{
+    margin-top:3px;  
+    margin-left: 5px;  
+}
+
+.ticket{
+    border: 1px solid #5ed235;
+    padding:0 10px;
+    border-radius:15px;
+    
+}
+
+.ticket h5{
+    margin-top:5px;
+
+}
+
+.qtydiv{
+    border: 1px solid #5ed235;
+    width:70px;
+    border-radius: 5px;
+    margin-top:20px;
+}
+
+.qtydiv input {
+    width: 30px;
+    background-color: black;
+    border:0px;
+    margin-left: 15px;
+    height:20px;
+    margin-bottom: 5px;
+    padding-top: -20px;
+    color: #5ed235;
+}
+
+
+.qtydiv p{
+    margin-top:-7px;
+    margin-left :5px;
+    background-color: black;
+    width:24px;
+    color: #5ed235;
+}
+
+.inputdiv{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom: 5px;
+
+}
+
+.btnadd{
+    height: 50px;
+    margin-top: 20px;
+    width: 120px;
+    border-radius:8px;
+    border: 0px;
+    background-color:#5ed235;
+    color: white;
+}
+
+.checkout {
+    height: 50px;
+    margin-top: 20px;
+    width: 365px;
+    border-radius: 8px;
+    border: 0px;
+    background-color: #5ed235;
+    color: white;
+    position: absolute;
+}
