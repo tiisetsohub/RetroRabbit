@@ -1,0 +1,19 @@
+h2 {
+    color: #5ed235;
+}
+
+.head {
+    justify-content: space-between;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.head div{
+    display: flex;
+}
+
+.head div h2{
+    padding-left:10px;
+}
