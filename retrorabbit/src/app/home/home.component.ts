@@ -28,7 +28,7 @@ export class HomeComponent {
     Price: 'R1800',
     VipPrice: 'R7000'
   },{
-    Image: 'Images 1.png',
+    Image: 'images 1.png',
     Name: 'Retro Rabbit ',
     Time: '8:00',
     Date: '23 April 2022',
@@ -64,7 +64,7 @@ export class HomeComponent {
     Price: 'R400',
     VipPrice: 'R1200'
   },{
-    Image: 'street bash',
+    Image: 'street bash.png',
     Name: 'Street Bash',
     Time: '17:00',
     Date: '24 April',
@@ -74,7 +74,4 @@ export class HomeComponent {
     VipPrice: 'R150'
   }
 ]
-  // ngOnInit(): void {
-  // }
-
 }
