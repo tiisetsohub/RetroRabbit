@@ -12,10 +12,16 @@ export class TabComponent{
   @Input() Time: string=""
   @Input() Venue: string=""
   @Input() Date: string=""
+
+  @Input() Description: string=""
+  @Input() VipPrice: string=""
+  @Input() RPrice: string=""
+
   constructor(private router: Router) { }
 
   onClick(){
-    this.router.navigate(['/details'])
+    this.router.navigate(['/details'], { queryParams:
+       {Image:this.Image, Name:this.Name,Time:this.Time, Venue:this.Venue,Date:this.Date,Description:this.Description,VipPrice:this.VipPrice,RPrice:this.RPrice}})
   }
 
 }
